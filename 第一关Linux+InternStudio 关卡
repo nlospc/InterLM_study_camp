@@ -6,7 +6,7 @@
 #### 1.任务1 完成SSH连接与端口映射并运行`hello_world.py
 1. 设置开发机
 创建开发机并启动
-![Image text](https://github.com/nlospc/InterLM_study_camp/blob/main/IMG/Pasted%20image%2020240823111736.png)
+![image](https://github.com/nlospc/InterLM_study_camp/blob/main/IMG/Pasted%20image%2020240823111736.png)
 点击SSH连接
 
 复制命令，通过ssh工具连接服务器
