@@ -99,7 +99,8 @@ pip install debugpy
 选择debugger时选择python debuger。选择debug config时选择remote attach就行，随后会让我们选择debug server的地址，因为我们是在本地debug，所以全都保持默认直接回车就可以了，也就是我们的server地址为localhost:5678。
 会生成一个launch.json的文件
 ![imgae][Pasted image 20240827210424.png]
+![imgae](https://github.com/nlospc/InterLM_study_camp/blob/main/IMG/Pasted%20image%2020240827210424.png)
 打好断点，开始▶️debug
-![imgae][Pasted image 20240827211202.png]
+![imgae](https://github.com/nlospc/InterLM_study_camp/blob/main/IMG/Pasted%20image%2020240827211202.png)
 可以清楚看到各个字段在数值变化
-![imgae][Pasted image 20240827210110.png]
+![imgae](https://github.com/nlospc/InterLM_study_camp/blob/main/IMG/Pasted%20image%2020240827210110.png)
