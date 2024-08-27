@@ -1,4 +1,4 @@
-### 第一关Linux+InternStudio
+### L0第一关Linux+InternStudio
 ####  **作业内容**
 - 必要任务：完成SSH连接与端口映射并运行`hello_world.py
 - 可选任务：使用 VSCODE 远程连接开发机并创建一个conda环境
