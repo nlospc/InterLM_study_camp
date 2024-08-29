@@ -71,7 +71,7 @@ while True:
 
 通过 `python /root/demo/cli_demo.py` 来启动我们的 Demo。
 
-![[Pasted image 20240829170030.png]]
+![image](https://github.com/nlospc/InterLM_study_camp/blob/main/IMG/Pasted%20image%2020240829170030.png)
 
 ##### 2、Streamlit Web Demo 部署InternLM2-chat-1.8B模型
 把本教程仓库 clone 到本地，以执行后续的代码。
@@ -82,9 +82,9 @@ git clone https://github.com/InternLM/Tutorial.git
 ```
 **【踩坑】**
 在demo目录下使用git clone 会拉取代码失败，不确定是文件写入权限问题还是什么
-![[Pasted image 20240829173658.png]]
+![image](https://github.com/nlospc/InterLM_study_camp/blob/main/IMG/Pasted%20image%2020240829173658.png)
 在/root 目录下直接git clone可以成功
-![[Pasted image 20240829173747.png]]
+![image](https://github.com/nlospc/InterLM_study_camp/blob/main/IMG/Pasted%20image%2020240829173747.png)
 
 
 执行如下代码启动一个 Streamlit 服务。
@@ -101,14 +101,14 @@ ssh -CNg -L 6006:127.0.0.1:6006 root@ssh.intern-ai.org.cn -p 你的 ssh 端口�
    在完成端口映射后，我们便可以通过浏览器访问 `http://localhost:6006` 来启动 Demo
 
 如果是VSCODE 远程SSH的话就不用在本地power shell操作了，会直接有弹窗，点击浏览器打开就行
-![[Pasted image 20240829174004.png]]
+![image](https://github.com/nlospc/InterLM_study_camp/blob/main/IMG/Pasted%20image%2020240829174004.png)
 
 稍微有点卡，耐心等待即可
 
-![[Pasted image 20240829174040.png]]
+![image](https://github.com/nlospc/InterLM_study_camp/blob/main/IMG/Pasted%20image%2020240829174040.png)
 
 效果图-**进行一些弱智对话**
-![[Pasted image 20240829174343.png]]
+![image](https://github.com/nlospc/InterLM_study_camp/blob/main/IMG/Pasted%20image%2020240829174343.png)
 
 
 ##### 3、LMDeploy 部署 InternLM-XComposer2-VL-1.8B 模型
@@ -130,12 +130,15 @@ lmdeploy serve gradio /share/new_models/Shanghai_AI_Laboratory/internlm-xcompose
 ```
 
 用这张照片进行上传，让模型反馈一下图片中的人数，看下效果
-![[Pasted image 20240829175017.png]]
+![image](https://github.com/nlospc/InterLM_study_camp/blob/main/IMG/Pasted%20image%2020240829175017.png)
 
 
 **被气笑了**
-![[Pasted image 20240829180305.png]]****
+
+![image](https://github.com/nlospc/InterLM_study_camp/blob/main/IMG/Pasted%20image%2020240829180305.png)
+
 而且再次追问也得不到答案
-![[Pasted image 20240829180356.png]]
+
+![image](https://github.com/nlospc/InterLM_study_camp/blob/main/IMG/Pasted%20image%2020240829180356.png)
 
 不过在第一次解析中花费大概半分钟后，后续的问题反应基本都是秒回，效果还行
