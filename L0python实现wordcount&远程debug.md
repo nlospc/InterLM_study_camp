@@ -1,4 +1,4 @@
-### L0第二关python实现wordcount&远程debug
+### L0python实现wordcount&远程debug
 ####  **作业内容**
 
 - 闯关任务Python实现wordcount
