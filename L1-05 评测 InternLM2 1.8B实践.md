@@ -172,5 +172,5 @@ print(completion.choices[0].message.content)
 ## 评测
  python tools/test_api_model.py configs/api_examples/eval_api_moonshot.py 
 ```
-
+搞了半天 还要花钱买api -。-！
 ![结果](https://imgsur.quicklydating.com/gh/nlospc/imgsur@main/img/20240906225715.png)
