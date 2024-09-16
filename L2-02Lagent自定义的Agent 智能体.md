@@ -192,4 +192,4 @@ from lagent.agents.internlm2_agent import INTERPRETER_CN, META_CN, PLUGIN_CN, In
 接下来，启动 Web Demo 来体验一下吧！我们同时启用两个工具，然后输入“请帮我生成一幅建筑画稿”。
 
 
-![[Pasted image 20240916151848.png]]
+![image](https://github.com/nlospc/InterLM_study_camp/edit/main/IMG/IMAGE%2020240916151848.png)
